@@ -14,7 +14,7 @@ This project provides an implementation of a USB Human Interface Device (HID) us
 
 ### Prerequisites
 - STM32 development board (e.g., STM32F103C8T6).
-- STM32CubeIDE or any compatible IDE.
+- STM32CubeIDE.
 - USB cable for interfacing with the host computer.
 
 ### Installation
