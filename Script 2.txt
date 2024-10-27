@@ -1,0 +1,12 @@
+Loop
+Short_Cut(LGUI, R);
+Delay(100);
+SendString("powershell");
+Delay(50);
+
+Press_Key(ENTER);
+Delay(500);
+SendString("Add-Type -AssemblyName PresentationFramework; [System.Windows.MessageBox]::Show('This is a pop-up message on Windows!')");
+Delay(50);
+Press_Key(ENTER);
+Delay(500);

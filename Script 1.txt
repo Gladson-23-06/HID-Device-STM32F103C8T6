@@ -1,0 +1,26 @@
+NoLoop
+//Delay(1000);
+Short_Cut(LGUI, R);
+Delay(50);
+SendString("CMD");
+Delay(50);
+
+Press_Key(ENTER);
+Delay(500);
+SendString("Hello World");
+Delay(50);
+Press_Key(ENTER);
+Delay(50);
+SendString("Hello World");
+Delay(50);
+Press_Key(ENTER);
+Delay(50);
+SendString("Hello World");
+Delay(50);
+Press_Key(ENTER);
+Delay(50);
+SendString("Hello World");
+Delay(50);
+Press_Key(ENTER);
+Delay(50);
+SendString("Hello World");

@@ -1,0 +1,120 @@
+// --------------------------------------------- Keys Declarations ----------------------------------------------- //
+
+// Modifier Key Definitions (Keys used in combination with other keys)
+ LCTRL        // Left Control (e.g., Ctrl+C for copy)
+ LSHIFT       // Left Shift (e.g., Shift+Letter for uppercase)
+ LALT         // Left Alt (e.g., Alt+Tab for window switching)
+ LGUI         // Left GUI (Windows/Command key, e.g., Windows+E to open File Explorer)
+ RCTRL        // Right Control (used similarly to left control)
+ RSHIFT       // Right Shift (used similarly to left shift)
+ RALT         // Right Alt (also known as AltGr on some keyboards)
+ RGUI         // Right GUI (Right Windows/Command key)
+
+// Alphabet Keycodes (HID usage IDs - standard alphabet keys)
+ A            // Key 'A'
+ B            // Key 'B'
+ C            // Key 'C'
+ D            // Key 'D'
+ E            // Key 'E'
+ F            // Key 'F'
+ G            // Key 'G'
+ H            // Key 'H'
+ I            // Key 'I'
+ J            // Key 'J'
+ K            // Key 'K'
+ L            // Key 'L'
+ M            // Key 'M'
+ N            // Key 'N'
+ O            // Key 'O'
+ P            // Key 'P'
+ Q            // Key 'Q'
+ R            // Key 'R'
+ S            // Key 'S'
+ T            // Key 'T'
+ U            // Key 'U'
+ V            // Key 'V'
+ W            // Key 'W'
+ X            // Key 'X'
+ Y            // Key 'Y'
+ Z            // Key 'Z'
+
+// Digit Keycodes (Numeric keys located above the alphabet keys)
+ N1           // Key '1'
+ N2           // Key '2'
+ N3           // Key '3'
+ N4           // Key '4'
+ N5           // Key '5'
+ N6           // Key '6'
+ N7           // Key '7'
+ N8           // Key '8'
+ N9           // Key '9'
+ N0           // Key '0'
+
+// Special Keycodes (Special characters and control keys)
+ ENTER        // Enter/Return key (used to submit input or commands)
+ ESC          // Escape key (used to exit or cancel)
+ BACKSPACE    // Backspace key (used to delete characters to the left)
+ TAB          // Tab key (used for tabbing or indentation)
+ SPACE        // Spacebar (used to insert a space character)
+ MINUS        // '-' key (minus or underscore, depending on shift)
+ EQUAL        // '=' key (equals or plus, depending on shift)
+ LEFT_BRACE   // '[' key (left square bracket)
+ RIGHT_BRACE  // ']' key (right square bracket)
+ BACKSLASH    // '\' key (backslash)
+ HASH_TILDE   // '#' or '~' key (hash or tilde, depending on shift)
+ SEMICOLON    // ';' key (semicolon or colon, depending on shift)
+ APOSTROPHE   // '\'' key (apostrophe or quotation, depending on shift)
+ GRAVE        // '`' key (grave accent or tilde, depending on shift)
+ COMMA        // ',' key (comma or less-than, depending on shift)
+ DOT          // '.' key (dot/period or greater-than, depending on shift)
+ SLASH        // '/' key (slash or question mark, depending on shift)
+ CAPS_LOCK    // Caps Lock key (toggles capitalization)
+
+// Function Keycodes (F1-F12 keys for various shortcut actions)
+ F1           // F1 key (often used for help menus)
+ F2           // F2 key (commonly used for renaming files)
+ F3           // F3 key (varies by application, e.g., search)
+ F4           // F4 key (varies by application, e.g., Alt+F4 closes a window)
+ F5           // F5 key (often used for refreshing)
+ F6           // F6 key (varies by application)
+ F7           // F7 key (varies by application)
+ F8           // F8 key (often used in boot menus)
+ F9           // F9 key (varies by application)
+ F10          // F10 key (varies by application, often for menu navigation)
+ F11          // F11 key (full-screen mode in browsers)
+ F12          // F12 key (developer tools in browsers)
+
+// Control Keycodes (System control keys)
+ PRINT        // Print Screen key (captures the screen)
+ SCROLL_LOCK  // Scroll Lock key (rarely used today)
+ PAUSE        // Pause/Break key (used to pause command-line output)
+ INSERT       // Insert key (toggles insert/overwrite mode)
+ HOME         // Home key (moves the cursor to the beginning of a line)
+ PAGE_UP      // Page Up key (scrolls up in a document)
+ DELETE       // Delete key (removes characters to the right)
+ END          // End key (moves the cursor to the end of a line)
+ PAGE_DOWN    // Page Down key (scrolls down in a document)
+ RIGHT_ARROW  // Right Arrow key (moves the cursor to the right)
+ LEFT_ARROW   // Left Arrow key (moves the cursor to the left)
+ DOWN_ARROW   // Down Arrow key (moves the cursor down)
+ UP_ARROW     // Up Arrow key (moves the cursor up)
+ NUM_LOCK     // Num Lock key (toggles numeric keypad mode)
+
+// Numeric Keypad Keycodes (Keys on the numeric keypad)
+ KP_SLASH     // Keypad '/' (divide)
+ KP_ASTERISK  // Keypad '*' (multiply)
+ KP_MINUS     // Keypad '-' (subtract)
+ KP_PLUS      // Keypad '+' (add)
+ KP_ENTER     // Keypad Enter (submits input from the keypad)
+ KP_1         // Keypad '1'
+ KP_2         // Keypad '2'
+ KP_3         // Keypad '3'
+ KP_4         // Keypad '4'
+ KP_5         // Keypad '5'
+ KP_6         // Keypad '6'
+ KP_7         // Keypad '7'
+ KP_8         // Keypad '8'
+ KP_9         // Keypad '9'
+ KP_0         // Keypad '0'
+ KP_DOT       // Keypad '.' (decimal point)
+
