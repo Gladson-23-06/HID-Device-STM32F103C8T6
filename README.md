@@ -40,7 +40,19 @@ This project implements a USB Human Interface Device (HID) using an STM32 microc
    HID\Tools\Make\bin
    HID\Tools\OpenOCD\bin
    ```
+ 
+
+4. **Verify the Toolchain Installation:**
+   - open a command prompt.  
+  ```
+   make --version
+
+   openocd --version
+
+   arm-none-eabi-gcc --version
    
+
+   ```
 4. **Open CMD in the Project Path:**
    - Navigate to the directory where your project is located and open a command prompt.
 
