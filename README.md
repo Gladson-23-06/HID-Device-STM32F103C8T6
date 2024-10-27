@@ -1,4 +1,6 @@
+Here’s the formatted README for your STM32 USB HID Keyboard Implementation project:
 
+---
 
 # STM32 USB HID Keyboard Implementation
 
@@ -40,29 +42,25 @@ This project implements a USB Human Interface Device (HID) using an STM32 microc
    HID\Tools\Make\bin
    HID\Tools\OpenOCD\bin
    ```
- 
 
 4. **Verify the Toolchain Installation:**
-   - open a command prompt.  
-  ```
+   Open a command prompt and run:
+   ```bash
    make --version
-
    openocd --version
-
    arm-none-eabi-gcc --version
-   
-
    ```
-4. **Open CMD in the Project Path:**
-   - Navigate to the directory where your project is located and open a command prompt.
 
-5. **Compile the Code:**
+5. **Open CMD in the Project Path:**
+   Navigate to the directory where your project is located and open a command prompt.
+
+6. **Compile the Code:**
    Use the following command to compile the text files into binary:
    ```bash
    HID.exe -I "C:\Users\don\Desktop\Cube MX\Script 2.txt"
    ```
 
-6. **Upload Code to STM32 Board:**
+7. **Upload Code to STM32 Board:**
    Execute the following command to flash the compiled code to the STM32 board:
    ```bash
    make flash
@@ -102,4 +100,4 @@ Special thanks to the STM32 community and all contributors for their valuable re
 
 ---
 
-Feel free to edit this README further to better suit your project or add any additional information!
+Feel free to further customize this README to better suit your project's specifics or add any additional information!
