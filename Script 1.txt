@@ -1,5 +1,5 @@
 NoLoop
-//Delay(1000);
+
 Short_Cut(LGUI, R);
 Delay(50);
 SendString("CMD");
