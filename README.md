@@ -1,6 +1,3 @@
-Here’s the formatted README for your STM32 USB HID Keyboard Implementation project:
-
----
 
 # STM32 USB HID Keyboard Implementation
 
@@ -98,6 +95,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 Special thanks to the STM32 community and all contributors for their valuable resources and guidance.
 
----
-
-Feel free to further customize this README to better suit your project's specifics or add any additional information!
