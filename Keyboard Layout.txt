@@ -39,16 +39,16 @@
  Z            // Key 'Z'
 
 // Digit Keycodes (Numeric keys located above the alphabet keys)
- N1           // Key '1'
- N2           // Key '2'
- N3           // Key '3'
- N4           // Key '4'
- N5           // Key '5'
- N6           // Key '6'
- N7           // Key '7'
- N8           // Key '8'
- N9           // Key '9'
- N0           // Key '0'
+ 1           // Key '1'
+ 2           // Key '2'
+ 3           // Key '3'
+ 4           // Key '4'
+ 5           // Key '5'
+ 6           // Key '6'
+ 7           // Key '7'
+ 8           // Key '8'
+ 9           // Key '9'
+ 0           // Key '0'
 
 // Special Keycodes (Special characters and control keys)
  ENTER        // Enter/Return key (used to submit input or commands)
